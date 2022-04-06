@@ -5,13 +5,13 @@ const label = document.querySelectorAll('label');
 const input = document.querySelectorAll('input');
 
 
-function freeSeateatMsg(e){
+function freeSeat(e){
     console.log(`kliknięto ${e.target.id}`);
 }
 
 
 
-oneSeat.forEach( seat => seat.addEventListener('click', freeSeateatMsg));
+oneSeat.forEach( seat => seat.addEventListener('click', freeSeat));
 
 
 
